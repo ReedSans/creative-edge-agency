@@ -165,7 +165,7 @@ ul {
 
 /* Individual page hero styles */
 #home.hero {
-  background: url('/assets/hero-bg.jpg') center/cover no-repeat scroll;
+  background: url('../assets/hero-bg.jpg') center/cover no-repeat scroll;
   position: relative;
   z-index: 1;
   overflow: hidden;
