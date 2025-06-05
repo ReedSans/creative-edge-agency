@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreativeEdge | Contact</title>
+
+    <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" 
+  href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" 
+  href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" 
+  href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" 
+  href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#" class="logo">CreativeEdge</a>
+
+      <nav class="nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="contact.html" class="cta-btn">Get a Quote</a>
+
+      <button class="menu-toggle" aria-label="Open Menu">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="cta-btn">Get a Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="contact" class="hero">
+      <div class="container">
+        <h1 class="hero-title">Let’s Connect</h1>
+        <p class="hero-subtitle">
+          Whether you're ready to start a project or just exploring ideas, we're here to help. Get a personalized quote or drop us a message—we're just one click away.
+        </p>
+        <div class="contact-cta-buttons">
+          <a href="#quote-form" class="btn btn-primary">Get a Quote</a>
+          <a href="mailto:oladaposanusi@gmail.com" class="btn btn-outline">Send an Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="quote-form">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">
+          Fill out the form below and we’ll get back to you within 24 hours. Let’s make something great together.
+        </p>
+
+        <form class="contact-form" action="https://formsubmit.co/3c3426fe401df7cd4ad7943663f358d0" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="web-design">Web Design</option>
+              <option value="development">Development</option>
+              <option value="wordpress">WordPress</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us about your project..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="container">
+        <h3 class="">Frequently Asked Questions</h3>
+        <!-- <ul class="faq-menu">
+          <li class="active">All</li>
+          <li>Getting Started</li>
+          <li>Pricing</li>
+        </ul> -->
+        <div class="faq-content">
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="">
+                How long does a typical project take?
+              </h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="faq-group-body open">
+              <p>Most projects take 2–4 weeks depending on the scope. We always provide a timeline before we start.</p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4>
+                Do you offer revisions?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>Yes! All our packages include at least 2 rounds of revisions. We want to make sure you love the final result.</p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4>
+                What if I don’t know exactly what I need?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                No worries! We’ll guide you through a quick discovery process to clarify your goals and suggest the best solution.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4>
+                Can you work with my existing brand?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Absolutely. If you have an existing logo, palette, or voice, we’ll incorporate them into your new site seamlessly.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4>Do you build on WordPress or just custom code?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                We do both! Whether you prefer WordPress for content control or need a custom-coded solution, we’ve got you covered.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4>
+                Is SEO included?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                All our builds follow SEO best practices by default. Includes mobile responsiveness & fast load times, and clean structure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="inquiry-banner">
+      <div class="inquiry-content">
+        <h2>Ready to get started?</h2>
+        <p>We’d love to hear about your project and how we can help bring it to life.</p>
+        <a href="contact.html" class="btn-secondary">Let's Talk</a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2>CreativeEdge</h2>
+        <p>Designing websites that work for your business.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: <a href="mailto:hello@creativeedge.com">hello@creativeedge.com</a></li>
+          <li>Phone: <a href="tel:+2348012345678">+234 801 234 5678</a></li>
+          <li>Lagos, Nigeria</li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 CreativeEdge Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/accordion.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
