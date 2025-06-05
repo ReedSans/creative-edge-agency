@@ -14,7 +14,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
@@ -26,7 +28,8 @@ a {
 }
 
 a:focus,
-button:focus {
+button:focus,
+div[role="button"]:focus {
   outline: 2px solid var(--outline-color);
   outline-offset: 2px;
   border-radius: 4px;
